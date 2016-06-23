@@ -11,11 +11,17 @@
         "php": ">=5.4.0",
         "illuminate/filesystem": "4.2.*",
         "illuminate/support": "4.2.*",
-        "phpseclib/phpseclib": "0.3.*"
+        "phpseclib/phpseclib": "dev-master"
     },
     "require-dev": {
         "illuminate/console": "4.2.*"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:jubairsaidi/phpseclib.git"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "Illuminate\\Remote": ""
